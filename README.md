@@ -23,3 +23,7 @@ Open Colab notebook the given **recommendation.ipynb** file in Google Colab to e
 ## Dependencies
 
 Ensure you have access to Google Colab with TensorFlow, TensorFlow Hub, TensorFlow Datasets, and TensorFlow Recommenders installed.
+
+## Author
+
+- [@Poorna Prakash S ](https://github.com/Prakash4205/)
