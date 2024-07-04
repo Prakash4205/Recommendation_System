@@ -8,19 +8,13 @@ This project is a movie recommendation system built using the [MovieLens 100k da
 
 - **Description**: This model uses the Universal Sentence Encoder from TensorFlow Hub to generate embeddings for movie titles. It calculates user embeddings by averaging the embeddings of the movies each user has rated. Movie recommendations are made by computing the similarity between user embeddings and movie embeddings.
   
-- **File**: `recommendation_system_with_universal_sentence_encoder.ipynb`
-
 ### 2. BERT-based Embeddings Model
 
 - **Description**: An alternative approach using BERT-based embeddings for movie representations. It utilizes a pre-trained BERT model from TensorFlow Hub to generate embeddings for movie titles. User embeddings are computed similarly by averaging the embeddings of the movies each user has rated.
   
-- **File**: `recommendation_system_using_bert.ipynb`
-
 ### 3. TensorFlow Recommenders Model
 
 - **Description**: This model leverages TensorFlow Recommenders to build a recommendation system with user and movie embeddings. It uses embedding layers and dense layers to create user and movie representations, then applies a retrieval task to recommend movies based on user preferences.
-  
-- **File**: `recommendation_system_using_tensorflow_recommenders.ipynb`
 
 ## Usage
 
